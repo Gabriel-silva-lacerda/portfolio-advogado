@@ -9,13 +9,14 @@ import { GlobalStyle } from "./styles/Styles";
 function App() {
   return (
     <>
-      <GlobalStyle />
+      <h1>Ola</h1>
+      {/* <GlobalStyle />
       <Header />
       <Home />
       <ActingSection />
       <OccupancyAreaSection />
       <ContactSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
