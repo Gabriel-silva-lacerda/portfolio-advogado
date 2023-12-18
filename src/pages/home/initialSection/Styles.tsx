@@ -5,7 +5,7 @@ import BackGround from "../../../assets/backgroundImage.jpg";
 export const InitialHomePage = styled.section`
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
 
   display: flex;
