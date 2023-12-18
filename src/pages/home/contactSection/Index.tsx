@@ -8,7 +8,7 @@ export const ContactSection = () => {
       <ul>
         <li>
           <FaMapMarkerAlt />
-          Av. Cândido José Xavier, 419 - Parque Santo Antônio | São Paulo - SP,
+          Av. Cândido José Xavier, 409 - Parque Santo Antônio | São Paulo - SP,
           05822-020
         </li>
         <li>
