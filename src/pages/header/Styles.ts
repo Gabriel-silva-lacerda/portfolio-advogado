@@ -22,9 +22,10 @@ export const HeaderContainer = styled.div`
   align-items: center;
 `;
 
-export const Logo = styled.button`
+export const Logo = styled.a`
   border: none;
   background: transparent;
+  cursor: pointer;
 
   img {
     width: 100%;

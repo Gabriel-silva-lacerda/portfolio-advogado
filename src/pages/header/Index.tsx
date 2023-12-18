@@ -28,7 +28,7 @@ export const Header = () => {
   return (
     <S.Header scrolled={scrolled} active={active}>
       <S.HeaderContainer>
-        <S.Logo>
+        <S.Logo href="home">
           {" "}
           <img src={HeaderLogo} alt="logo" />
         </S.Logo>
