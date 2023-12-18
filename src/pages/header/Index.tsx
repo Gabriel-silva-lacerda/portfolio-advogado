@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import HeaderLogo from "../../assets/header-logo.png";
 import * as S from "./Styles";
 
 export const Header = () => {
@@ -30,7 +30,7 @@ export const Header = () => {
       <S.HeaderContainer>
         <S.Logo href="home">
           {" "}
-          <img src="src/assets/header-logo.png" alt="logo" />
+          <img src={HeaderLogo} alt="logo" />
         </S.Logo>
 
         <S.Nav className={active ? "active" : ""}>

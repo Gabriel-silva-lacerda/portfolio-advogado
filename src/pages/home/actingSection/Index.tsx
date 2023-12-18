@@ -1,4 +1,4 @@
-
+import About from "../../../assets/photo-about.jpg";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 import * as S from "./Styles";
@@ -41,7 +41,7 @@ export const ActingSection = () => {
           </a>
         </S.About>
         <S.ImageAboutContainer>
-          <img src="src/assets/photo-about.jpg" alt="Imagem sobre mim" />
+          <img src={About} alt="Imagem sobre mim" />
         </S.ImageAboutContainer>
       </S.AboutContainer>
     </S.ActingSectionContainer>
