@@ -9,6 +9,9 @@ export const Header = styled.header<{ scrolled: boolean; active: boolean }>`
 
   background: ${({ scrolled, active }) =>
     scrolled || active ? "#0f2167" : "transparent"};
+
+  box-shadow: ${({ scrolled, active }) =>
+    scrolled || active ? "0 1px 1px #0000001a" : "initail"};
 `;
 
 export const HeaderContainer = styled.div`
