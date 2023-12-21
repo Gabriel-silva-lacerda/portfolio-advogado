@@ -22,10 +22,10 @@ export const ContactSection = () => {
         <li>
           <FaMapMarkerAlt />
           Av. Cândido José Xavier, 409 - Parque Santo Antônio | São Paulo - SP,
-          05751-000
+          05822-020
         </li>
         <li>
-          <FaPhoneAlt /> (11) 98209-9540
+          <FaPhoneAlt /> (11) 94977-6197
         </li>
         <li>
           {" "}
