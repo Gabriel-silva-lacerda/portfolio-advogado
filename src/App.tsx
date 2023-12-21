@@ -1,5 +1,5 @@
-import { Footer } from "./pages/footer/Index";
-import { Header } from "./pages/header/Index";
+import { Footer } from "./components/footer/Index";
+import { Header } from "./components/header/Index";
 import { ActingSection } from "./pages/home/actingSection/Index";
 import { ContactSection } from "./pages/home/contactSection/Index";
 import { Home } from "./pages/home/initialSection/Index";

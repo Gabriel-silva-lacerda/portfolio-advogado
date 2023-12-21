@@ -1,12 +1,23 @@
 import About from "../../../assets/photo-about.jpg";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-
+import { useScrollAnimation } from "../../../hooks/useScrollAnimation";
 import * as S from "./Styles";
 
 export const ActingSection = () => {
+  const { ref, controls } = useScrollAnimation();
+
   return (
-    <S.ActingSectionContainer id="about">
-      <S.AboutContainer>
+    <section id="about">
+      <S.AboutContainer
+        ref={ref}
+        variants={{
+          hidden: { opacity: 0, y: 75 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        initial="hidden"
+        animate={controls}
+        transition={{ duration: 0.5, delay: 0.25 }}
+      >
         <S.About>
           <h1>Sobre mim</h1>
           <p>
@@ -44,6 +55,6 @@ export const ActingSection = () => {
           <img src={About} alt="Imagem sobre mim" />
         </S.ImageAboutContainer>
       </S.AboutContainer>
-    </S.ActingSectionContainer>
+    </section>
   );
 };

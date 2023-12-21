@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
+import { motion } from "framer-motion";
 
-export const ActingSectionContainer = styled.section``;
-
-export const AboutContainer = styled.div`
+export const AboutContainer = styled(motion.div)`
   max-width: 1300px;
   margin: 0 auto;
   padding: 6rem 1.5rem 6rem 1.5rem;
@@ -95,6 +94,6 @@ export const ImageAboutContainer = styled.div`
   }
 
   @media (max-width: 578px) {
-   display: none;
+    display: none;
   }
 `;

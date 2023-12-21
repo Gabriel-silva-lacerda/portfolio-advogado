@@ -127,6 +127,7 @@ export const HeaderList = styled.ul`
 
     transform: translate(-20px);
     opacity: 0;
+    z-index: -1;
   }
 `;
 

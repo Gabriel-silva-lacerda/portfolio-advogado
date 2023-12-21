@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
+import { motion } from "framer-motion";
 
 export const OccupancyAreaContainer = styled.section`
   background: ${theme.colors.blue};
 `;
 
-export const OccupancyArea = styled.div`
+export const OccupancyArea = styled(motion.div)`
   max-width: 1300px;
   margin: 0 auto;
   padding: 6rem 1.5rem;
@@ -30,7 +31,6 @@ export const OccupancyAreaList = styled.ul`
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
-
 
   gap: 1rem;
 

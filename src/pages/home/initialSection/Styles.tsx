@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
-import BackGround from "../../../assets/backgroundImage.jpg";
+import BackGround from "../../../assets/group.png";
+import { motion } from "framer-motion";
 
-export const InitialHomePage = styled.section`
+export const InitialHomePage = styled(motion.section)`
   background-size: cover;
   background-position: center center;
   height: 100dvh;
@@ -12,46 +13,39 @@ export const InitialHomePage = styled.section`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  color: #5e2a3bd5;
+  background: no-repeat url(${BackGround});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-  background: ${theme.colors.blueBackgroudImage};
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100%;
+      max-width: 434px;
+    }
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: no-repeat url(${BackGround});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1;
-    opacity: 0.7;
-  }
+    a {
+      font-family: "Roboto";
+      text-transform: uppercase;
 
-  img {
-    width: 100%;
-    max-width: 434px;
-  }
+      color: ${theme.colors.white};
+      border: 1px solid ${theme.colors.white};
 
-  a {
-    font-family: "Roboto";
-    text-transform: uppercase;
+      display: block;
+      padding: 1rem 2rem;
+      margin: 2rem 0 0 0;
 
-    color: ${theme.colors.white};
-    border: 1px solid ${theme.colors.white};
+      transition: all 0.3s;
 
-    display: block;
-    padding: 1rem 2rem;
-    margin: 2rem 0 0 0;
-
-    transition: all 0.3s;
-
-    &:hover {
-      background: ${theme.colors.white};
-      color: ${theme.colors.blue};
-      border-color: ${theme.colors.blue};
+      &:hover {
+        background: ${theme.colors.white};
+        color: ${theme.colors.blue};
+        border-color: ${theme.colors.blue};
+      }
     }
   }
 `;

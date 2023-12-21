@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
+import { motion } from "framer-motion";
 
-export const ContactCotaniner = styled.section`
+export const ContactCotaniner = styled(motion.section)`
   margin: 0 auto;
   padding: 6rem 1.5rem;
 
