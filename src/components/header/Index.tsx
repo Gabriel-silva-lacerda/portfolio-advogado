@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import HeaderLogo from "../../assets/header-logo.png";
+import HeaderLogo from "../../assets/new-logo.png";
 import * as S from "./Styles";
 
 export const Header = () => {

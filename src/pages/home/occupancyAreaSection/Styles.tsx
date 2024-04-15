@@ -28,9 +28,11 @@ export const OccupancyArea = styled(motion.div)`
 `;
 
 export const OccupancyAreaList = styled.ul`
-  display: grid;
+  /* display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
 
   gap: 1rem;
 
@@ -47,7 +49,7 @@ export const AreaContainer = styled.li`
 
   background: #fff;
   flex-grow: 1;
-  flex-basis: 100;
+  width: 400px;
   svg {
     font-size: 2.5rem;
     color: ${theme.colors.lightYeloow};

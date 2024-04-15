@@ -1,4 +1,4 @@
-import About from "../../../assets/photo-about.jpg";
+import About from "../../../assets/photo-perfil.jpeg";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { useScrollAnimation } from "../../../hooks/useScrollAnimation";
 import * as S from "./Styles";
@@ -21,7 +21,7 @@ export const ActingSection = () => {
         <S.About>
           <h1>Sobre mim</h1>
           <p>
-            Me chamo Marcio Calisto de Sousa Junior, advogado com 24 anos,
+            Me chamo Marcio Calisto de Sousa Junior, advogado com 25 anos,
             atuando na area de Direito Civil, Direito de Família e Direito do
             Consumidor. Graduado na Universidade Nove de Julho, e atualmente me
             especializando em direito civil e código de processo civil pela

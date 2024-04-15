@@ -25,7 +25,7 @@ export const InitialHomePage = styled(motion.section)`
     align-items: center;
     img {
       width: 100%;
-      max-width: 434px;
+      /* max-width: 434px; */ 
     }
 
     a {

@@ -32,7 +32,7 @@ export const Logo = styled.a`
 
   img {
     width: 100%;
-    max-width: 110px;
+    max-width: 140px;
   }
 `;
 

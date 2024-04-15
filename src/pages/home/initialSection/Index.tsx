@@ -1,4 +1,4 @@
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/new-logo.png";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import * as S from "./Styles";

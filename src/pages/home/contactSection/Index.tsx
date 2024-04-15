@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { useScrollAnimation } from "../../../hooks/useScrollAnimation";
 import * as S from "./Styles";
 
@@ -19,11 +19,6 @@ export const ContactSection = () => {
     >
       <h2>Contate-me</h2>
       <ul>
-        <li>
-          <FaMapMarkerAlt />
-          Av. Cândido José Xavier, 409 - Parque Santo Antônio | São Paulo - SP,
-          05822-020
-        </li>
         <li>
           <FaPhoneAlt /> (11) 94977-6197
         </li>
