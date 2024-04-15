@@ -55,7 +55,7 @@ export const areasDoDireito = [
       "- Aposentadoria por invalidez",
       "- Aposentadoria Especial",
       "- Aposentadoria por tempo de Contribuição",
-      "- Aposentadoria por tempo de Contribuição",
+      "- Auxílio Doença",
     ],
   },
 ];
